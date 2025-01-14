@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio-Lina Peña</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Lina Peña</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">ESTUDIOS</a></li>
+                            <li><a href="#herramientas" onclick="seleccionar(this)">HERRAMIENTAS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://github.com/Vanesa-B"><i class="fa-brands fa-github fa-beat"></i></a>
+                        <a href="https://wa.me/qr/J2ZIPS3EG5LFH1"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h2>Aprendiz Sena, Apasionada por el Desarrollo y los Datos</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <h3 class="titulo-seccion">Sobre Mi</h3>
+            <h2>Soy <span>Lina Peña</span> </h2>
+            <p>Actualmente estoy cursando un Tecnólogo en Análisis y Desarrollo de Software en el SENA. Mi pasión por la programación y la tecnología me impulsa a aprender y crecer en este emocionante campo. Estoy abierta a nuevas oportunidades y colaboraciones en el mundo del desarrollo de software.</p>            
+        </div>
+        </section>
+    
+    
+    
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS ESTUDIOS</h3>
+        <div class="fila">
+            <div class="servicio" data-aos="flip-left"> 
+                <span class="icono">
+                    <a href="https://drive.google.com/drive/folders/1NIs75UiDkDS3VvfQAkwwsQTCk4qyvHrk?usp=drive_link" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png" alt="Google Drive" style="width: 20px; height: 20px;">
+                    </a>
+                    </span>
+                <h4>Drive de Cursos </h4>
+                <hr>
+                <ul class="servicios-tag"> 
+                    <li>Haz clic en el Logo de Drive para ver los Certificados de los Cursos.</li>
+                </ul>
+            </div>
+            <div class="servicio" data-aos="flip-left"> 
+                <span class="icono"><i class="fa-solid fa-chalkboard-user"></i></span>
+                <h4>Formacion en ingles </h4>
+                <hr>
+                <ul class="servicios-tag"> 
+                    <li>Cuento con una formación complementaria en inglés con el curso "English Dot Works 1."</li>
+                </ul>
+            </div>
+            <div class="servicio" data-aos="flip-left">
+                <span class="icono"><i class="fa-solid fa-building-columns"></i></span>
+                <h4>Formacion Tecnologia en Analisis y Desarrollo de Software</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>En la actualidad, estudio un Tecnólogo en Análisis y Desarrollo de Software en el SENA.</li>
+                </ul>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>COMPETENCIAS </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>MySQL</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+    </div>
+
+                <!-- SECCION HERRAMIENTAS -->
+<section id="herramientas">
+    <h2 class="titulo-seccion">HERRAMIENTAS</h2>
+   
+        <div class="grid-container">
+            
+              <img src="img/visual.png" alt="Visual Studio">
+            
+              <img src="img/Figma.png" alt="Figma">
+
+              <img src="img/Github.png" alt="GitHub">
+            
+              <img src="img/power bi.png" alt="Power BI">
+           
+              <img src="img/DBeaver.jpg" alt="DBeaver">
+        
+              <img src="img/marketingcloud-logo.png" alt="Salesforce Marketing Cloud">
+          </div>
+</section>
+
+ <!-- SECCTION C O N T A C T O -->
+ <section id="contacto">
+    <h3 class="titulo-seccion">Contactame</h3>
+    <div class="contact-info">
+        <ul>
+            <li>
+                <strong>Teléfono:</strong> 3195572808
+            </li>
+            <li>
+                <strong>Email:</strong> linavanesabetancourth@gmail.com
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <strong>Dirección:</strong> Bogotá, Colombia
+            </li>
+        </ul>
+    </div>
+    </p>
+</section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>© Portafolio - Lina Peña - 2025</p>
+        <div class="redes">
+            <a href="https://github.com/Vanesa-B"><i class="fa-brands fa-github fa-beat"></i></a>
+            <a href="https://www.linkedin.com/in/lina-vanesa-pe%C3%B1a-betancourt-136323317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/qr/J2ZIPS3EG5LFH1"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
